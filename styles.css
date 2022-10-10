@@ -10,12 +10,6 @@
 	margin: 0 auto;
 }
 
-#content div{
-	padding: 0px;
-	border: solid black 1px;
-}
-
-
 #title p {
 	font-family: Sacramento, script;
 	font-weight: bold;
@@ -33,4 +27,8 @@
 	font-family: Arial, sans-serif;
 	font-size: 18pt;
 	color: white;
+}
+
+#banner img {
+	max-width: 90%;
 }
