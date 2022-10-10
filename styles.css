@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
 
 #content {
+	font-family: Arial, sans-serif;
 	display: grid;
 	grid-template-columns: 100%;
 	grid-auto-rows: auto;
@@ -10,13 +11,16 @@
 	margin: 0 auto;
 }
 
-#title p {
+.sacramento {
 	font-family: Sacramento, script;
 	font-weight: bold;
+	color: rgb(227, 172, 177);
+}
+
+#title p {
 	font-size: 72pt;
 	padding-bottom: 10px;
 	margin: 0;
-	color: rgb(227, 172, 177);
 }
 
 #nav {
@@ -24,7 +28,6 @@
 }
 
 #nav p, a {
-	font-family: Arial, sans-serif;
 	font-size: 18pt;
 	color: white;
 }
@@ -32,3 +35,13 @@
 #banner img {
 	max-width: 90%;
 }
+
+#about p {
+	font-size: 13.2pt;
+}
+
+#about p:nth-of-type(1){
+	font-size: 36pt;
+	margin-bottom: 0;
+}
+
