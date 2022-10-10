@@ -6,7 +6,6 @@
 	grid-template-columns: 100%;
 	grid-auto-rows: auto;
 	max-width: 1920px;
-	!height: 1701px;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -52,14 +51,28 @@
 	max-width: 90%;
 }
 
-#categories img{
+#categories img {
 	padding-top: 20px;
 	margin: 0 auto;
 	max-width: 80%;
 }
 
 #categories a {
-		font-size: 30pt;
+	font-size: 30pt;
 }
 
+#footer {
+	position: relative;
+	min-height: 150px;
+	font-size: 14pt;	
+	color: white;
+	background-color: rgb(172, 118, 142);
+}
 
+#footer p { 
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
