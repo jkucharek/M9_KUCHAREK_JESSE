@@ -64,7 +64,7 @@
 #footer {
 	position: relative;
 	min-height: 150px;
-	font-size: 14pt;	
+	font-size: 16pt;	
 	color: white;
 	background-color: rgb(172, 118, 142);
 }
@@ -75,4 +75,8 @@
 	top: 50%;
 	transform: translateY(-50%);
 	width: 100%;
+}
+
+#footer span {
+	font-size: 20pt;
 }
