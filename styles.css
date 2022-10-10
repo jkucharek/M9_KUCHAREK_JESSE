@@ -37,11 +37,29 @@
 }
 
 #about p {
-	font-size: 13.2pt;
+	font-size: 15.5pt;
 }
 
 #about p:nth-of-type(1){
 	font-size: 36pt;
 	margin-bottom: 0;
 }
+
+#categories {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	max-width: 90%;
+}
+
+#categories img{
+	padding-top: 20px;
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+#categories a {
+		font-size: 30pt;
+}
+
 
