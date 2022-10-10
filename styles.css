@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
 
+
+/*styling consistent regardless of browser size */
 #content {
 	font-family: Arial, sans-serif;
 	display: grid;
@@ -7,7 +9,6 @@
 	grid-auto-rows: auto;
 	max-width: 1920px;
 	min-width: 320px;
-	
 	text-align: center;
 	margin: 0 auto;
 }
@@ -52,7 +53,7 @@
 
 
 
-
+/*small mobile devices*/
 @media (min-width: 320px) and (max-width: 399px){
 	#title p{
 		font-size: 2.5rem;
@@ -87,7 +88,7 @@
 }
 
 
-
+/*slightly less small mobile devices*/
 @media (min-width: 400px) and (max-width: 499px){
 	#title p{
 		font-size: 3rem;
@@ -123,7 +124,7 @@
 
 
 
-
+/*last gen mobile devices*/
 @media (min-width: 500px) and (max-width: 649px) {
 	#title p{
 		font-size: 3.5rem;
@@ -159,7 +160,7 @@
 
 
 
-
+/*current gen mobile devices*/
 @media (min-width: 650px) and (max-width: 767px){
 	#title p{
 		font-size: 5rem;
@@ -210,7 +211,7 @@
 
 
 
-
+/*tablets*/
 @media (min-width: 768px) and (max-width: 1023px){
 	#title p{
 		font-size: 6rem;
@@ -259,6 +260,8 @@
 	}
 }
 
+
+/*low res desktops*/
 @media (min-width: 1024px) and (max-width: 1279px){
 		#title p{
 		font-size: 6rem;
@@ -310,7 +313,7 @@
 
 
 
-
+/*HD desktops*/
 @media (min-width: 1280px) and (max-width: 1599px) {
 		#title p{
 		font-size: 6rem;
@@ -361,7 +364,7 @@
 
 
 
-
+/*UHD desktops*/
 @media (min-width: 1600px) {
 		#title p{
 		font-size: 6rem;
@@ -409,28 +412,3 @@
 		width: 100%;
 	}
 }
-
-/*
-
-
-#footer {
-	min-height: 10rem;
-	font-size: 1.34rem;	
-}
-
-
-#footer span {
-	font-size: 1.6rem;
-}
-
-
-
-@media (min-width: 768px) and (max-width: 1023px){
-	
-}
-*/
-/*@media (max-width: 1000px) and (min-width: 726px)
-
-Phones: 320-767
-Tablets: 768 - 1023
-Desktop: 1024+ */
