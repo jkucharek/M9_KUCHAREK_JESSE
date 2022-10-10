@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
+
+#content {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-auto-rows: auto;
+	max-width: 1920px;
+	!height: 1701px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#content div{
+	padding: 0px;
+	border: solid black 1px;
+}
+
+
+#title p {
+	font-family: Sacramento, script;
+	font-weight: bold;
+	font-size: 72pt;
+	padding-bottom: 10px;
+	margin: 0;
+	color: rgb(227, 172, 177);
+}
+
+#nav {
+	background-color: rgb(172, 118, 142);
+}
+
+#nav p, a {
+	font-family: Arial, sans-serif;
+	font-size: 18pt;
+	color: white;
+}
